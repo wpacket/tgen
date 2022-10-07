@@ -1,31 +1,31 @@
-#!/bin/bash
+#!/bin/bash 
 
 while true
 do
 
-wget -O /dev/null -q https://www.microsoft.com/fr-fr/microsoft-teams/log-in --no-check-certificate &
-wget -O /dev/null -q https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration --no-check-certificate &
-wget -O /dev/null -q https://www.office.com/ --no-check-certificate &
-wget -O /dev/null -q https://login.salesforce.com/?locale=eu --no-check-certificate &
-wget -O /dev/null -q https://zoom.us/signin#/login --no-check-certificate &
-wget -O /dev/null -q https://web.webex.com/sign-in --no-check-certificate &
+curl https://www.microsoft.com/fr-fr/microsoft-teams/log-in --insecure -m 2 > /dev/null& 
+curl https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration --insecure -m 2 > /dev/null& 
+curl https://www.office.com/ --insecure -m 2 > /dev/null& 
+curl https://login.salesforce.com/?locale=eu --insecure -m 2 > /dev/null& 
+curl https://zoom.us/signin#/login --insecure -m 2 > /dev/null& 
+curl https://web.webex.com/sign-in --insecure -m 2 > /dev/null& 
 
-wget -O /dev/null -q https://www.facebook.com/ --no-check-certificate &
-wget -O /dev/null -q https://www.instagram.com/ --no-check-certificate &
-wget -O /dev/null -q https://www.linkedin.com --no-check-certificate &
-wget -O /dev/null -q https://www.reddit.com/ --no-check-certificate &
-wget -O /dev/null -q https://telegram.org/ --no-check-certificate &
+curl https://www.facebook.com/ --insecure -m 2 > /dev/null& 
+curl https://www.instagram.com/ --insecure -m 2 > /dev/null& 
+curl https://www.linkedin.com --insecure -m 2 > /dev/null& 
+curl https://www.reddit.com/ --insecure -m 2 > /dev/null& 
+curl https://telegram.org/ --insecure -m 2 > /dev/null& 
 
 
-wget -O /dev/null -q https://www.google.fr/maps --no-check-certificate &
-wget -O /dev/null -q https://drive.google.com/drive/my-drive --no-check-certificate &
-wget -O /dev/null -q https://mail.google.com/ --no-check-certificate &
+curl https://www.google.fr/maps --insecure -m 2 > /dev/null& 
+curl https://drive.google.com/drive/my-drive --insecure -m 2 > /dev/null& 
+curl https://mail.google.com/ --insecure -m 2 > /dev/null& 
 
-wget -O /dev/null -q https://www.youtube.com/ --no-check-certificate &
-wget -O /dev/null -q https://open.spotify.com/ --no-check-certificate &
+curl https://www.youtube.com/ --insecure -m 2 > /dev/null& 
+curl https://open.spotify.com/ --insecure -m 2 > /dev/null& 
 
-wget -O /dev/null -q https://www.theguardian.com/ --no-check-certificate &
-wget -O /dev/null -q https://en.wikipedia.org/ --no-check-certificate &
+curl https://www.theguardian.com/ --insecure -m 2 > /dev/null& 
+curl https://en.wikipedia.org/ --insecure -m 2 > /dev/null& 
 
 curl https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
 curl https://secure.eicar.org/eicar.com.txt --insecure -m 2 > /dev/null&
