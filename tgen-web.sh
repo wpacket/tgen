@@ -27,10 +27,54 @@ curl -s https://open.spotify.com/ --insecure -m 2 > /dev/null&
 curl -s https://www.theguardian.com/ --insecure -m 2 > /dev/null& 
 curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null& 
 
+############
+# Virus URL
+############
 curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicar.com.txt --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicar_com.zip --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicarcom2.zip --insecure -m 2 > /dev/null&
+
+#############
+# Botnet URL
+#############
+curl -s https://linuxtoy.org --insecure -m 2 > /dev/null&
+curl -s https://139.162.113.238 --insecure -m 2 > /dev/null&
+
+#############
+# Spam URL
+#############
+curl -s https://9724.com --insecure -m 2 > /dev/null&
+curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
+ 
+#########################
+# Exploits/phishing URL
+#########################
+curl -s https://devcv.me --insecure -m 2 > /dev/null&
+curl -s https://160.153.1.1 --insecure -m 2 > /dev/null&
+
+#########################
+# Phishing URL
+#########################
+curl -s https://quanmama.com --insecure -m 2 > /dev/null&
+curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
+
+#########################
+# Phishing URL
+#########################
+curl -s https://segou456.info --insecure -m 2 > /dev/null&
+curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
+
+#########################
+# Phishing URL
+#########################
+curl -s https://segou456.info --insecure -m 2 > /dev/null&
+curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
+
+#########################
+# Proxy URL
+#########################
+curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
 
 sleep 3
 
