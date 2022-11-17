@@ -63,7 +63,7 @@ curl -s https://9724.com --insecure -m 2 > /dev/null&
 curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
  
 #########################
-# Exploits/phishing URL
+# Windows Exploits /phishing URL
 #########################
 curl -s https://devcv.me --insecure -m 2 > /dev/null&
 curl -s https://160.153.1.1 --insecure -m 2 > /dev/null&
@@ -73,24 +73,13 @@ curl -s https://160.153.1.1 --insecure -m 2 > /dev/null&
 #########################
 curl -s https://quanmama.com --insecure -m 2 > /dev/null&
 curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
-
-#########################
-# Phishing URL
-#########################
 curl -s https://segou456.info --insecure -m 2 > /dev/null&
-curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
-
-#########################
-# Phishing URL
-#########################
-curl -s https://segou456.info --insecure -m 2 > /dev/null&
-curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
 
 #########################
 # Proxy URL
 #########################
 curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
 
-sleep 3
+sleep 20
 
 done
