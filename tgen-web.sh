@@ -80,6 +80,6 @@ curl -s https://segou456.info --insecure -m 2 > /dev/null&
 #########################
 curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
 
-sleep 20
+sleep 60
 
 done
