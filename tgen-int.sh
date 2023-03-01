@@ -1,4 +1,9 @@
 #!/bin/bash
+
+ping 192.168.1.254 > /dev/null &
+ping 192.168.2.254 > /dev/null &
+ping 192.168.3.254 > /dev/null &
+
 ping 192.168.10.254 > /dev/null &
 ping 192.168.20.254 > /dev/null &
 ping 192.168.30.254 > /dev/null &
