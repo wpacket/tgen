@@ -49,6 +49,7 @@ curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicar.com.txt --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicar_com.zip --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicarcom2.zip --insecure -m 2 > /dev/null&
+curl -s http://proxy.opendnstest.com/download/eicar.com --insecure -m 2 > /dev/null&
 
 #############
 # Botnet URL
