@@ -74,7 +74,6 @@ curl -s https://160.153.1.1 --insecure -m 2 > /dev/null&
 #########################
 curl -s https://quanmama.com --insecure -m 2 > /dev/null&
 curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
-curl -s https://segou456.info --insecure -m 2 > /dev/null&
 
 #########################
 # Proxy URL
