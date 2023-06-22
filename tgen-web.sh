@@ -12,6 +12,7 @@ curl -s https://www.office.com/ --insecure -m 2 > /dev/null&
 curl -s https://login.salesforce.com/?locale=eu --insecure -m 2 > /dev/null& 
 curl -s https://zoom.us/signin#/login --insecure -m 2 > /dev/null& 
 curl -s https://web.webex.com/sign-in --insecure -m 2 > /dev/null& 
+curl -s https://zoom.us/ --insecure -m 2 > /dev/null& 
 
 ##################
 # Social Media URL
@@ -22,6 +23,7 @@ curl -s https://www.linkedin.com --insecure -m 2 > /dev/null&
 curl -s https://www.reddit.com/ --insecure -m 2 > /dev/null& 
 curl -s https://telegram.org/ --insecure -m 2 > /dev/null& 
 
+sleep 5
 
 ##################
 # Search Engine URL
@@ -29,6 +31,7 @@ curl -s https://telegram.org/ --insecure -m 2 > /dev/null&
 curl -s https://www.google.fr/maps --insecure -m 2 > /dev/null& 
 curl -s https://drive.google.com/drive/my-drive --insecure -m 2 > /dev/null& 
 curl -s https://mail.google.com/ --insecure -m 2 > /dev/null& 
+curl -s https://openai.com/blog/chatgpt --insecure -m 2 > /dev/null& 
 
 ##################
 # Streaming URL
@@ -42,6 +45,8 @@ curl -s https://open.spotify.com/ --insecure -m 2 > /dev/null&
 curl -s https://www.theguardian.com/ --insecure -m 2 > /dev/null& 
 curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null& 
 
+sleep 5
+
 ############
 # Virus URL
 ############
@@ -53,6 +58,15 @@ curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/NotP
 curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/WannaCry.exe --insecure -m 2 > /dev/null&
 curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe --insecure -m 2 > /dev/null&
 curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe --insecure -m 2 > /dev/null&
+
+sleep 5
+
+############
+# DLP TEST
+############
+curl -s https://dlptest.com/sample-data.xls --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data.csv --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data.pdf --insecure -m 2 > /dev/null&
 
 #############
 # Botnet URL
