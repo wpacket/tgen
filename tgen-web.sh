@@ -67,6 +67,11 @@ sleep 5
 curl -s https://dlptest.com/sample-data.xls --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data.csv --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data.pdf --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/ --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/namessndob/ --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/nameccnzip/ --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/namedobemail/ --insecure -m 2 > /dev/null&
+
 
 #############
 # Botnet URL
