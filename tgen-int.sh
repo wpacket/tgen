@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 5
+sleep 60
 
 ping 192.168.1.254 -c 2 > /dev/null &
 ping 192.168.2.254 -c 2 > /dev/null &
