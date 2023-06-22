@@ -46,10 +46,13 @@ curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null&
 # Virus URL
 ############
 curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
-curl -s https://secure.eicar.org/eicar.com.txt --insecure -m 2 > /dev/null&
-curl -s https://secure.eicar.org/eicar_com.zip --insecure -m 2 > /dev/null&
-curl -s https://secure.eicar.org/eicarcom2.zip --insecure -m 2 > /dev/null&
-curl -s http://proxy.opendnstest.com/download/eicar.com --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/RAT/WarzoneRAT.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/Locky.AZ.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/NotPetya.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/WannaCry.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe --insecure -m 2 > /dev/null&
 
 #############
 # Botnet URL
