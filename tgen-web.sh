@@ -51,13 +51,14 @@ sleep 5
 # Virus URL
 ############
 curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/RAT/WarzoneRAT.exe --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/Locky.AZ.exe --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/NotPetya.exe --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/WannaCry.exe --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe --insecure -m 2 > /dev/null&
-curl -s https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Banking-Malware/Emotet.zip --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/RAT/WarzoneRAT.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Ransomware/Locky.AZ.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Ransomware/NotPetya.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Ransomware/WannaCry.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Spyware/AgentTesla.exe --insecure -m 2 > /dev/null&
+curl -s https://github.com/Da2dalus/The-MALWARE-Repo/raw/master/Stealer/Lokibot.exe --insecure -m 2 > /dev/null&
+
 
 sleep 5
 
