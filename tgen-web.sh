@@ -34,6 +34,20 @@ curl -s https://mail.google.com/ --insecure -m 2 > /dev/null&
 curl -s https://openai.com/blog/chatgpt --insecure -m 2 > /dev/null& 
 
 ##################
+# CSP
+##################
+curl -s https://azure.microsoft.com/ --insecure -m 2 > /dev/null& 
+curl -s https://cloud.google.com/ --insecure -m 2 > /dev/null& 
+curl -s https://aws.amazon.com/ --insecure -m 2 > /dev/null& 
+curl -s https://eu.alibabacloud.com/ --insecure -m 2 > /dev/null& 
+curl -s https://azure.microsoft.com/ --insecure -m 2 > /dev/null& 
+curl -s https://cloud.google.com/ --insecure -m 2 > /dev/null& 
+curl -s https://aws.amazon.com/ --insecure -m 2 > /dev/null& 
+curl -s https://eu.alibabacloud.com/ --insecure -m 2 > /dev/null& 
+
+sleep 5
+
+##################
 # Streaming URL
 ##################
 curl -s https://www.youtube.com/ --insecure -m 2 > /dev/null& 
