@@ -59,6 +59,14 @@ curl -s https://open.spotify.com/ --insecure -m 2 > /dev/null&
 curl -s https://www.theguardian.com/ --insecure -m 2 > /dev/null& 
 curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null& 
 
+##################
+# TEST IDP
+##################
+curl -s http://testmyids.com/ --insecure -m 2 > /dev/null& 
+curl -s http://testmyids.com/login.php&admin=toto&password=admin --insecure -m 2 > /dev/null& 
+curl -s "http://testmyids.com/login.php&admin=toto&password=toto'+OR+1=1--" --insecure -m 2 > /dev/null& 
+curl -s "http://testmyids.com/login.php&admin=<script>alert('hello');</script>&password=toto" --insecure -m 2 > /dev/null& 
+
 sleep 5
 
 ############
