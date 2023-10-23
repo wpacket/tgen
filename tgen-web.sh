@@ -23,7 +23,7 @@ curl -s https://www.linkedin.com --insecure -m 2 > /dev/null&
 curl -s https://www.reddit.com/ --insecure -m 2 > /dev/null& 
 curl -s https://telegram.org/ --insecure -m 2 > /dev/null& 
 
-sleep 5
+sleep 30
 
 ##################
 # Search Engine URL
@@ -45,7 +45,7 @@ curl -s https://cloud.google.com/ --insecure -m 2 > /dev/null&
 curl -s https://aws.amazon.com/ --insecure -m 2 > /dev/null& 
 curl -s https://eu.alibabacloud.com/ --insecure -m 2 > /dev/null& 
 
-sleep 5
+sleep 30
 
 ##################
 # Streaming URL
@@ -67,11 +67,13 @@ curl -s http://testmyids.com/login.php&admin=toto&password=admin --insecure -m 2
 curl -s "http://testmyids.com/login.php&admin=toto&password=toto'+OR+1=1--" --insecure -m 2 > /dev/null& 
 curl -s "http://testmyids.com/login.php&admin=<script>alert('hello');</script>&password=toto" --insecure -m 2 > /dev/null& 
 
-sleep 5
+sleep 30
 
 ############
 # Virus URL
 ############
+curl -s http://eicar.eu/eicar.com --insecure -m 2 > /dev/null&
+curl -s http://eicar.eu/eicar.com.txt --insecure -m 2 > /dev/null&
 curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/RAT/WarzoneRAT.exe?raw=true --insecure -m 2 > /dev/null&
@@ -82,7 +84,7 @@ curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/Agent
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe?raw=true --insecure -m 2 > /dev/null&
 
 
-sleep 5
+sleep 30
 
 ############
 # DLP TEST
@@ -107,7 +109,9 @@ curl -s https://139.162.113.238 --insecure -m 2 > /dev/null&
 #############
 curl -s https://9724.com --insecure -m 2 > /dev/null&
 curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
- 
+
+sleep 30
+
 #########################
 # Windows Exploits /phishing URL
 #########################
@@ -125,6 +129,6 @@ curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
 #########################
 curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
 
-sleep 60
+sleep 30
 
 done
