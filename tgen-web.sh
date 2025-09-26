@@ -23,7 +23,7 @@ curl -s https://www.linkedin.com --insecure -m 2 > /dev/null&
 curl -s https://www.reddit.com/ --insecure -m 2 > /dev/null& 
 curl -s https://telegram.org/ --insecure -m 2 > /dev/null& 
 
-sleep 30
+sleep 60
 
 ##################
 # Search Engine URL
@@ -45,13 +45,23 @@ curl -s https://cloud.google.com/ --insecure -m 2 > /dev/null&
 curl -s https://aws.amazon.com/ --insecure -m 2 > /dev/null& 
 curl -s https://eu.alibabacloud.com/ --insecure -m 2 > /dev/null& 
 
-sleep 30
+sleep 60
 
 ##################
 # Streaming URL
 ##################
 curl -s https://www.youtube.com/ --insecure -m 2 > /dev/null& 
 curl -s https://open.spotify.com/ --insecure -m 2 > /dev/null& 
+
+##################
+# AI
+##################
+curl -s https://chatgpt.com/ --insecure -m 2 > /dev/null& 
+curl -s https://chatgpt.com/ --insecure -m 2 > /dev/null& 
+curl -s https://gemini.google.com/ --insecure -m 2 > /dev/null& 
+curl -s https://claude.ai/ --insecure -m 2 > /dev/null& 
+curl -s https://copilot.microsoft.com/ --insecure -m 2 > /dev/null& 
+curl -s https://www.jasper.ai/ --insecure -m 2 > /dev/null& 
 
 ##################
 # News URL
@@ -63,19 +73,18 @@ curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null&
 # TEST IDP
 ##################
 curl -s http://testmyids.com/ --insecure -m 2 > /dev/null& 
-curl -s http://testmyids.com/login.php&admin=toto&password=admin --insecure -m 2 > /dev/null& 
+curl -s http://testmyids.com/login.php&admin=SELECT*FROM*USERS&password=admin --insecure -m 2 > /dev/null& 
+curl -s http://testmyids.com/../../../../etc/passwd --insecure -m 2 > /dev/null& 
+curl -s http://testmyids.com/etc/passwd --insecure -m 2 > /dev/null& 
 curl -s "http://testmyids.com/login.php&admin=toto&password=toto'+OR+1=1--" --insecure -m 2 > /dev/null& 
-curl -s "http://testmyids.com/login.php&admin=<script>alert('hello');</script>&password=toto" --insecure -m 2 > /dev/null& 
+curl -s "http://testmyids.com/login.php&admin=<script>alert('document.cookie');</script>&password=admin" --insecure -m 2 > /dev/null& 
 
-sleep 30
+sleep 60
 
 ############
 # Virus URL
 ############
-curl -s http://eicar.eu/eicar.com --insecure -m 2 > /dev/null&
-curl -s http://eicar.eu/eicar.com.txt --insecure -m 2 > /dev/null&
-curl -s https://secure.eicar.org/eicar.com --insecure -m 2 > /dev/null&
-curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip --insecure -m 2 > /dev/null&
+curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip?raw=true --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/RAT/WarzoneRAT.exe?raw=true --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/Locky.AZ.exe?raw=true --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/NotPetya.exe?raw=true --insecure -m 2 > /dev/null&
@@ -83,8 +92,7 @@ curl -LJOs https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/W
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe?raw=true --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe?raw=true --insecure -m 2 > /dev/null&
 
-
-sleep 30
+sleep 60
 
 ############
 # DLP TEST
@@ -93,16 +101,18 @@ curl -s https://dlptest.com/sample-data.xls --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data.csv --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data.pdf --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data/ --insecure -m 2 > /dev/null&
-curl -s https://dlptest.com/sample-data/namessndob/ --insecure -m 2 > /dev/null&
-curl -s https://dlptest.com/sample-data/nameccnzip/ --insecure -m 2 > /dev/null&
-curl -s https://dlptest.com/sample-data/namedobemail/ --insecure -m 2 > /dev/null&
-
+curl -s https://dlptest.com/sample-data/namessndob --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/nameccnzip --insecure -m 2 > /dev/null&
+curl -s https://dlptest.com/sample-data/namedobemail --insecure -m 2 > /dev/null&
 
 #############
 # Botnet URL
 #############
-curl -s https://linuxtoy.org --insecure -m 2 > /dev/null&
-curl -s https://139.162.113.238 --insecure -m 2 > /dev/null&
+curl -s http://linuxtoy.org --insecure -m 2 > /dev/null&
+curl -s http://139.162.113.238 --insecure -m 2 > /dev/null&
+curl -s http://scan-11i.shadowserver.org --insecure -m 2 > /dev/null&
+curl -s http://v1.budzcyka.ru --insecure -m 2 > /dev/null&
+curl -s http://driveroff.net --insecure -m 2 > /dev/null&
 
 #############
 # Spam URL
@@ -110,7 +120,7 @@ curl -s https://139.162.113.238 --insecure -m 2 > /dev/null&
 curl -s https://9724.com --insecure -m 2 > /dev/null&
 curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
 
-sleep 30
+sleep 60
 
 #########################
 # Windows Exploits /phishing URL
@@ -128,7 +138,8 @@ curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
 # Proxy URL
 #########################
 curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
+curl -s https://nordvpn.com --insecure -m 2 > /dev/null&
 
-sleep 30
+sleep 180
 
 done
