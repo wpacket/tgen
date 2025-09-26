@@ -14,6 +14,8 @@ curl -s https://zoom.us/signin#/login --insecure -m 2 > /dev/null&
 curl -s https://web.webex.com/sign-in --insecure -m 2 > /dev/null& 
 curl -s https://zoom.us/ --insecure -m 2 > /dev/null& 
 
+sleep 60
+
 ##################
 # Social Media URL
 ##################
@@ -32,6 +34,8 @@ curl -s https://www.google.fr/maps --insecure -m 2 > /dev/null&
 curl -s https://drive.google.com/drive/my-drive --insecure -m 2 > /dev/null& 
 curl -s https://mail.google.com/ --insecure -m 2 > /dev/null& 
 curl -s https://openai.com/blog/chatgpt --insecure -m 2 > /dev/null& 
+
+sleep 60
 
 ##################
 # CSP
@@ -62,6 +66,8 @@ curl -s https://gemini.google.com/ --insecure -m 2 > /dev/null&
 curl -s https://claude.ai/ --insecure -m 2 > /dev/null& 
 curl -s https://copilot.microsoft.com/ --insecure -m 2 > /dev/null& 
 curl -s https://www.jasper.ai/ --insecure -m 2 > /dev/null& 
+
+sleep 60
 
 ##################
 # News URL
@@ -105,6 +111,8 @@ curl -s https://dlptest.com/sample-data/namessndob --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data/nameccnzip --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data/namedobemail --insecure -m 2 > /dev/null&
 
+sleep 60
+
 #############
 # Botnet URL
 #############
@@ -113,6 +121,8 @@ curl -s http://139.162.113.238 --insecure -m 2 > /dev/null&
 curl -s http://scan-11i.shadowserver.org --insecure -m 2 > /dev/null&
 curl -s http://v1.budzcyka.ru --insecure -m 2 > /dev/null&
 curl -s http://driveroff.net --insecure -m 2 > /dev/null&
+
+sleep 60
 
 #############
 # Spam URL
@@ -133,6 +143,8 @@ curl -s http://devcv.me --insecure -m 2 > /dev/null&
 curl -s http://160.153.1.1 --insecure -m 2 > /dev/null&
 curl -s http://ysbweb.com --insecure -m 2 > /dev/null&
 curl -s http://li1iv.com --insecure -m 2 > /dev/null&
+
+sleep 60
 
 #########################
 # Proxy URL
