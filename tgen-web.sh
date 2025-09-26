@@ -123,22 +123,28 @@ curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
 sleep 60
 
 #########################
-# Windows Exploits /phishing URL
-#########################
-curl -s https://devcv.me --insecure -m 2 > /dev/null&
-curl -s https://160.153.1.1 --insecure -m 2 > /dev/null&
-
-#########################
 # Phishing URL
 #########################
 curl -s https://quanmama.com --insecure -m 2 > /dev/null&
 curl -s https://114.55.204.159 --insecure -m 2 > /dev/null&
+curl -s http://launchruse.com --insecure -m 2 > /dev/null&
+curl -s http://coherenceinvest.com --insecure -m 2 > /dev/null&
+curl -s http://devcv.me --insecure -m 2 > /dev/null&
+curl -s http://160.153.1.1 --insecure -m 2 > /dev/null&
+curl -s http://ysbweb.com --insecure -m 2 > /dev/null&
+curl -s http://li1iv.com --insecure -m 2 > /dev/null&
 
 #########################
 # Proxy URL
 #########################
 curl -s https://www.torproject.org --insecure -m 2 > /dev/null&
 curl -s https://nordvpn.com --insecure -m 2 > /dev/null&
+
+#########################
+# Miner
+#########################
+curl -s https://tardis.bauerj.eu --insecure -m 2 > /dev/null&
+curl -s https://mine.moneropool.com --insecure -m 2 > /dev/null&
 
 sleep 180
 
