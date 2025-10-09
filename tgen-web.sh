@@ -14,7 +14,7 @@ curl -s https://zoom.us/signin#/login --insecure -m 2 > /dev/null&
 curl -s https://web.webex.com/sign-in --insecure -m 2 > /dev/null& 
 curl -s https://zoom.us/ --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ##################
 # Social Media URL
@@ -25,7 +25,7 @@ curl -s https://www.linkedin.com --insecure -m 2 > /dev/null&
 curl -s https://www.reddit.com/ --insecure -m 2 > /dev/null& 
 curl -s https://telegram.org/ --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ##################
 # Search Engine URL
@@ -35,7 +35,7 @@ curl -s https://drive.google.com/drive/my-drive --insecure -m 2 > /dev/null&
 curl -s https://mail.google.com/ --insecure -m 2 > /dev/null& 
 curl -s https://openai.com/blog/chatgpt --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ##################
 # CSP
@@ -49,7 +49,7 @@ curl -s https://cloud.google.com/ --insecure -m 2 > /dev/null&
 curl -s https://aws.amazon.com/ --insecure -m 2 > /dev/null& 
 curl -s https://eu.alibabacloud.com/ --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ##################
 # Streaming URL
@@ -67,7 +67,7 @@ curl -s https://claude.ai/ --insecure -m 2 > /dev/null&
 curl -s https://copilot.microsoft.com/ --insecure -m 2 > /dev/null& 
 curl -s https://www.jasper.ai/ --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ##################
 # News URL
@@ -85,7 +85,7 @@ curl -s http://testmyids.com/etc/passwd --insecure -m 2 > /dev/null&
 curl -s "http://testmyids.com/login.php&admin=toto&password=toto'+OR+1=1--" --insecure -m 2 > /dev/null& 
 curl -s "http://testmyids.com/login.php&admin=<script>alert('document.cookie');</script>&password=admin" --insecure -m 2 > /dev/null& 
 
-sleep 60
+sleep 30
 
 ############
 # Virus URL
@@ -98,7 +98,7 @@ curl -LJOs https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/W
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe?raw=true --insecure -m 2 > /dev/null&
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe?raw=true --insecure -m 2 > /dev/null&
 
-sleep 60
+sleep 30
 
 ############
 # DLP TEST
@@ -111,7 +111,7 @@ curl -s https://dlptest.com/sample-data/namessndob --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data/nameccnzip --insecure -m 2 > /dev/null&
 curl -s https://dlptest.com/sample-data/namedobemail --insecure -m 2 > /dev/null&
 
-sleep 60
+sleep 30
 
 #############
 # Botnet URL
@@ -122,15 +122,13 @@ curl -s http://scan-11i.shadowserver.org --insecure -m 2 > /dev/null&
 curl -s http://v1.budzcyka.ru --insecure -m 2 > /dev/null&
 curl -s http://driveroff.net --insecure -m 2 > /dev/null&
 
-sleep 60
+sleep 30
 
 #############
 # Spam URL
 #############
 curl -s https://9724.com --insecure -m 2 > /dev/null&
 curl -s https://58.87.96.144 --insecure -m 2 > /dev/null&
-
-sleep 60
 
 #########################
 # Phishing URL
@@ -144,7 +142,7 @@ curl -s http://160.153.1.1 --insecure -m 2 > /dev/null&
 curl -s http://ysbweb.com --insecure -m 2 > /dev/null&
 curl -s http://li1iv.com --insecure -m 2 > /dev/null&
 
-sleep 60
+sleep 30
 
 #########################
 # Proxy URL
@@ -158,6 +156,6 @@ curl -s https://nordvpn.com --insecure -m 2 > /dev/null&
 curl -s https://tardis.bauerj.eu --insecure -m 2 > /dev/null&
 curl -s https://mine.moneropool.com --insecure -m 2 > /dev/null&
 
-sleep 180
+sleep 30
 
 done
