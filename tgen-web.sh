@@ -79,7 +79,6 @@ curl -s https://en.wikipedia.org/ --insecure -m 2 > /dev/null&
 # TEST IDP
 ##################
 curl -s http://testmyids.com/ --insecure -m 2 > /dev/null& 
-curl -s http://testmyids.com/login.php&admin=SELECT*FROM*USERS&password=admin --insecure -m 2 > /dev/null& 
 curl -s http://testmyids.com/../../../../etc/passwd --insecure -m 2 > /dev/null& 
 curl -s http://testmyids.com/etc/passwd --insecure -m 2 > /dev/null& 
 curl -s "http://testmyids.com/login.php&admin=toto&password=toto'+OR+1=1--" --insecure -m 2 > /dev/null& 
