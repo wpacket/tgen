@@ -90,19 +90,19 @@ sleep 30
 # Virus URL
 ############
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Banking-Malware/Emotet.zip?raw=true --insecure -m 2 > /dev/null&
-rm Emotet.zip
+rm -rf Emotet.zip
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/RAT/WarzoneRAT.exe?raw=true --insecure -m 2 > /dev/null&
-rm WarzoneRAT.exe
+rm -rf WarzoneRAT.exe
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/Locky.AZ.exe?raw=true --insecure -m 2 > /dev/null&
-rm Locky.AZ.exe
+rm -rf Locky.AZ.exe
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/NotPetya.exe?raw=true --insecure -m 2 > /dev/null&
-rm NotPetya.exe
+rm -rf NotPetya.exe
 curl -LJOs https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Ransomware/WannaCry.exe?raw=true --insecure -m 2 > /dev/null&
-rm WannaCry.exe
+rm -rf WannaCry.exe
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Spyware/AgentTesla.exe?raw=true --insecure -m 2 > /dev/null&
-rm AgentTesla.exe
+rm -rf AgentTesla.exe
 curl -LJO https://github.com/Da2dalus/The-MALWARE-Repo/blob/master/Stealer/Lokibot.exe?raw=true --insecure -m 2 > /dev/null&
-rm Lokibot.exe
+rm -rf Lokibot.exe
 
 sleep 30
 
